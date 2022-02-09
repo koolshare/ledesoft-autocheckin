@@ -607,7 +607,7 @@
 	<!-- ------------------ 标签页 --------------------- -->
 	<ul id="pbr_tabs" class="nav nav-tabs">
 		<li><a href="javascript:void(0);" onclick="tabSelect('app1');" id="app1-tab" class="active" ><i class="icon-warning"></i> 基本设置</a></li>
-		<li><a href="javascript:void(0);" onclick="tabSelect('app2');" id="app2-tab" ><i class="icon-tools"></i> 数据备份</a></li>
+		<!-- <li><a href="javascript:void(0);" onclick="tabSelect('app2');" id="app2-tab" ><i class="icon-tools"></i> 数据备份</a></li> -->
 		<li><a href="javascript:void(0);" onclick="tabSelect('app3');" id="app3-tab" ><i class="icon-info"></i> 运行日志</a></li>
 	</ul>
 	<div class="box boxr1" id="_qiandao_settings" style="margin-top: 15px;">
@@ -620,8 +620,8 @@
 					//{ title: '签到时间', name: 'autocheckin_hour', type: 'select', options: option_cru_hour, value: "" },
 					//{ title: 'node环境', suffix: '<button id="qiandao_now" onclick="qiandao_now(5);" class="btn btn-success">一键安装 <i class="icon-cloud"></i></button>'},
 					{ title: 'WEB控制台',  name: 'signdog_web',text: ' &nbsp;&nbsp;<a href=http://' + location.hostname + ":9930" + '/ target="_blank"><u>http://'  + location.hostname + ":9930" + '</u></a>'},
-					{ title: '主程序更新', suffix: '<button id="bin_update" onclick="bin_update(4);" class="btn btn-success">一键更新 <i class="icon-download"></i></button>'},
-					{ title: 'node环境', suffix: '<button id="node_opkg" onclick="node_opkg(5);" class="btn btn-success">一键安装 <i class="icon-cloud"></i></button>'},
+					//{ title: '主程序更新', suffix: '<button id="bin_update" onclick="bin_update(4);" class="btn btn-success">一键更新 <i class="icon-download"></i></button>'},
+					//{ title: 'node环境', suffix: '<button id="node_opkg" onclick="node_opkg(5);" class="btn btn-success">一键安装 <i class="icon-cloud"></i></button>'},
 					{ title: '交流反馈', suffix: '<button id="join_qq" onclick="join_qq();" class="btn btn-danger">加入QQ群 <i class="icon-tools"></i></button>'}
 				]);
 			</script>
